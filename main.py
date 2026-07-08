@@ -9,6 +9,7 @@ def add_numbers(num1: int, num2: int) -> int:
     Returns:
         int: The sum of num1 and num2.
     """
+    print(f"add_numbers called with num1={num1}, num2={num2}")
     return num1 + num2
 
 if __name__ == "__main__":
